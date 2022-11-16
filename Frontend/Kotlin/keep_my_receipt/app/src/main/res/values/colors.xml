@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <!-- 추가 색상 -->
+    <color name="black_high_emphasis">#D9000000</color>
+    <color name="black_medium_emphasis">#99000000</color>
+    <color name="black_low_emphasis">#66000000</color>
+    <!--    <color name="ssafy_blue">#FF1bb1e7</color>-->
+    <color name="ssafy_blue">#003da7</color>
+    <color name="gray_light">#f4f4f3</color>
+    <color name="orange_light">#ffa147</color>
+    <color name="red">#FF0000</color>
+    <color name="starbucks_green">#036635</color>
+    <color name="starbucks_dark_gray">#353535</color>
+
+    <!-- 색상 추가 -->
+    <color name="point_yellow">#FCEC66</color>
+    <color name="point_blue">#95C0D1</color>
+    <color name="normal_green">#9Eb89a</color>
+    <color name="normal_blue">#d4dae6</color>
+    <color name="normal_gray">#eeebe4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_b">#808080</color>
+
+</resources>

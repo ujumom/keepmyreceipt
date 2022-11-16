@@ -1,0 +1,15 @@
+unKnown:
+  code: "-9999"
+  msg: "An unknown error has occurred."
+userNotFound:
+  code: "-1000"
+  msg: "This member not exist"
+entryPointException:
+  code: "-1002"
+  msg: "You do not have permission to access this resource."
+accessDenied:
+  code: "-1003"
+  msg: "A resource that can not be accessed with the privileges it has."
+dataNotExistError:
+  code: "0"
+  msg: "The format of the required information is incorrect. Please check again and enter."

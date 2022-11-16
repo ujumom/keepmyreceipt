@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="장부내역"
+        android:id="@+id/book"
+        android:icon="@drawable/ic_book"/>
+    <item android:title="분석"
+        android:id="@+id/chart"
+        android:icon="@drawable/ic_chart"/>
+    <item android:title="거래등록"
+        android:id="@+id/add"
+        android:icon="@drawable/ic_add"/>
+    <item android:title="멤버관리"
+        android:id="@+id/members"
+        android:icon="@drawable/ic_members"/>
+    <item android:title="보고서"
+        android:id="@+id/report"
+        android:icon="@drawable/ic_report"/>
+</menu>

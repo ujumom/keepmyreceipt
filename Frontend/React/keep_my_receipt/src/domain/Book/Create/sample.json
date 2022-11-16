@@ -1,0 +1,42 @@
+{
+  "date": "2022-05-05",
+  "totalValue": 210000,
+  "items": [
+    {
+      "mainCategory": "",
+      "largeCategory": "",
+      "mediumCategory": "",
+      "tag1": "",
+      "tag2": "",
+      "itemName": "치즈 바사삭",
+      "itemValue": 30000
+    },
+    {
+      "mainCategory": "",
+      "largeCategory": "",
+      "mediumCategory": "",
+      "tag1": "",
+      "tag2": "",
+      "itemName": "축구공",
+      "itemValue": 30000
+    },
+    {
+      "mainCategory": "",
+      "largeCategory": "",
+      "mediumCategory": "",
+      "tag1": "",
+      "tag2": "",
+      "itemName": "고베 스테이크",
+      "itemValue": 100000
+    },
+    {
+      "mainCategory": "",
+      "largeCategory": "",
+      "mediumCategory": "",
+      "tag1": "",
+      "tag2": "",
+      "itemName": "축구화",
+      "itemValue": 50000
+    }
+  ]
+}

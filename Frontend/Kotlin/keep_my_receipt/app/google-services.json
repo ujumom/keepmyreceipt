@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "891638757148",
+    "project_id": "keep-my-receipt",
+    "storage_bucket": "keep-my-receipt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891638757148:android:3c00dd94a83a2f5d8eecd9",
+        "android_client_info": {
+          "package_name": "com.ssafy.keep_my_receipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891638757148-68va0e72mbf855d64h7obd98faaeivgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.keep_my_receipt",
+            "certificate_hash": "eb309324f20979dcccbb3387f520a60eb047f58f"
+          }
+        },
+        {
+          "client_id": "891638757148-la3sm9dmna0h3lqd7net0sbdsfvgmtba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH9MM121mb8jkCt19eRKdj15jmfoAV0nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891638757148-la3sm9dmna0h3lqd7net0sbdsfvgmtba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

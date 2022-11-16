@@ -1,0 +1,47 @@
+# 기본 로그 레벨 설정
+logging:
+  level:
+    root: warn
+    com.ieung.receipt: debug
+    org.hibernate.type.descriptor.sql: warn  # trace
+
+spring:
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
+  jwt:
+    secret: DvqcGn8mnFjqSL4a
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties.hibernate:
+      hbm2ddl.auto: update
+      format_sql: true
+      show_sql: true
+      use_sql_comments: true
+    generate-ddl: true
+    open-in-view: false
+
+  # 데이터 베이스 연결 설정
+  datasource:
+    url: jdbc:mysql://k6d104.p.ssafy.io:3306/receipt_db?serverTimezone=Asia/Seoul
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: receipt
+    password: Receipt!*
+  flyway:
+    enabled: false
+
+server:
+  # 프로젝트 환경의 포트 설정
+  port: 8185
+  domain: localhost
+  servlet:
+    session:
+      timeout: 1440m
+  max-http-header-size: 3145728
+
+aes256:
+  key: WZsExuBV3GSQ55Uf
+
+# 푸쉬 알림 전송 시 필요한 firebase json 파일의 위치
+app:
+  firebase-config: keep-my-receipt-firebase-adminsdk-8o9sg-b7f7231713.json

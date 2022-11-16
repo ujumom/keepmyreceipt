@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">keep_my_receipt</string>
+    <string name="firebase_notification_channel_id">ssafy</string>
+</resources>

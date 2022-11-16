@@ -1,0 +1,28 @@
+.board {
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  margin: 0 0 8px 0;
+  padding: 10px 30px;
+  display: flex;
+}
+
+.icon {
+  padding-top: 12px;
+  margin-right: 10px;
+  width: 40px;
+}
+
+.text {
+  padding-top: 12px;
+  text-align: center;
+}
+
+.toggle {
+  padding-top: 12px;
+}
+
+.alarm {
+  padding-top: 3px;
+}

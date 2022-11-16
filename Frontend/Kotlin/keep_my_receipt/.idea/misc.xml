@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/ic_baseline_add.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/ic_baseline_remove.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/ic_bottom_quiz.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/outline_expand_more_24.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/progress_bg.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/rectangle.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/shape_fill_round_blue.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/shape_round_blue.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/drawable/shape_round_purple.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/layout/activity_main.xml" value="0.1296875" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/layout/activity_splash.xml" value="0.1296875" />
+        <entry key="..\:/Users/SSAFY/AndroidStudioProjects/keep_my_receipt/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1484375" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/keep_my_receipt_launcher_round.xml" value="0.12685185185185185" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/activity_join.xml" value="0.1" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/dialog_camera_image_select.xml" value="0.4" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/mipmap-anydpi-v26/keep_my_receipt_launcher.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/SSAFY/Desktop/pjt/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/mipmap-anydpi-v26/keep_my_receipt_launcher_round.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/ic_add.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/ic_book.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/ic_chart.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/activity_splash.xml" value="0.1296875" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/layout/layout_main_content.xml" value="0.1296875" />
+        <entry key="..\:/Users/multicampus/Desktop/S06P31D104/Frontend/Kotlin/keep_my_receipt/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,93 @@
+buildscript {
+	ext {
+		queryDslVersion = "5.0.0"
+	}
+}
+
+plugins {
+	id 'org.springframework.boot' version '2.6.7'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id "com.ewerk.gradle.plugins.querydsl" version "1.0.10"
+}
+
+apply plugin: "com.ewerk.gradle.plugins.querydsl"
+
+group = 'com.ieung'
+version = '0.0.1-SNAPSHOT'
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	runtimeOnly 'mysql:mysql-connector-java'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+
+	implementation 'io.jsonwebtoken:jjwt:0.9.1'
+	implementation 'com.google.code.gson:gson:2.8.5'
+
+	// querydsl 추가
+	implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
+	implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
+
+	// swagger 3
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.6'
+
+	// JUnit 5
+	testImplementation('org.junit.jupiter:junit-jupiter-api:5.2.0')
+	testImplementation('org.junit.jupiter:junit-jupiter-params:5.2.0')
+	testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.2.0')
+
+	// yml 다국어 파일 지원
+	implementation 'net.rakugakibox.util:yaml-resource-bundle:1.1'
+
+	// firebase
+	implementation 'com.google.firebase:firebase-admin:8.1.0'
+
+	// YearMonth Type 지원
+	implementation('com.vladmihalcea:hibernate-types-55:2.16.2')
+
+	// excel file 변환을 위한 poi library
+	implementation group: 'org.apache.poi', name: 'poi', version: '5.2.2' // xls
+	implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.2' // xlsx
+}
+
+//querydsl 추가 시작
+def querydslDir = "$buildDir/generated/querydsl"
+
+querydsl {
+	jpa = true
+	querydslSourcesDir = querydslDir
+}
+sourceSets {
+	main.java.srcDir querydslDir
+}
+compileQuerydsl{
+	options.annotationProcessorPath = configurations.querydsl
+}
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+	querydsl.extendsFrom compileClasspath
+}
+//querydsl 추가 끝
